@@ -6,7 +6,7 @@ int main()
     printf("enter celsius :-");
     scanf("%f",&a);
     float d = (1.8*a)+ 32;
-    printf("%.1d celsius tem. in fahrenheit is :-%.1d",a,d);
+    printf("%.1f celsius tem. in fahrenheit is :-%.1f",a,d);
     
 
     return 0;
@@ -20,7 +20,7 @@ int main()
 int main()
 {
     float bs;
-    int hra = 10   da = 5  ta = 8;
+    int hra = 10 , da = 5 , ta = 8;
     float Z;
      
      printf("enter your salary :-");
@@ -47,9 +47,9 @@ int main()
     scanf("%f",&y);
     float A = x + y;
     z = 180 - A;
-    printf("third angle :-", z);
+    printf("third angle :- %f", z);
     return 0;
 }
     
-}
+
 
