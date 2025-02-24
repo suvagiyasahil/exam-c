@@ -137,12 +137,12 @@ int main()
     for(int i=1;i<=5;i++)
     {
         int k=1;
-        for(int j=1;j<=9;j++)
+        for(int j=1;j<=10;j++)
         {
-            if(j<=i||j>=10-i)
-            {
+            if(j<=i||j>=11-i)
+            {   if(i==5&&j==6) k--;
                 printf("%d",k);
-                j<5?k++:k--;
+                j<6?k++:k--;
 
             }
             else
